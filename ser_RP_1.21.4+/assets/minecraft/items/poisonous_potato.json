@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property":"minecraft:custom_model_data",
+    "index":0,
+
+    "on_false":{
+    "type": "minecraft:model",
+    "model": "minecraft:item/poisonous_potato"
+    },
+
+    "on_true":{
+      "type": "minecraft:model",
+      "model":"spigotplugintestdev:item/overbakedpotato"
+    }
+  }
+}
